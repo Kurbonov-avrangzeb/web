@@ -1,0 +1,67 @@
+body{
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: 25px; /*межстрочный отступ (высота строки)*/
+}
+
+.title
+{
+    text-align: center; /*выравние*/
+    letter-spacing: 2px; /*межбуквенный отступ*/
+    text-decoration:overline ; /*линия над заголовком*/
+    text-transform: uppercase;
+}
+
+.italic 
+{
+font-style:italic;
+}
+
+.font{
+    font-size: 20px;
+    text-align: justify; /*justify- выравнивание по краям*/
+    font-weight: bold;
+/*    font-style: italic;*/
+}
+dl {
+    color:red;
+}
+
+.dlstyle {
+    color: red;
+} 
+.dlstyle:hover {
+    color: #6c59ce;
+}  
+
+
+ .title:hover{
+color:rgb(55, 70, 236)
+ }
+
+p{
+    text-indent: 20px; /*отступ для первого словав*/
+}
+
+ul{
+    list-style-type:circle; /*значок маркеров*/
+}
+ 
+ol{
+    list-style-type:upper-roman;
+}
+
+.anchor{
+    font-family: Times New Roman, serif;
+    font-style:unset;
+    color:brown;
+    text-transform: lowercase;
+}
+
+.anchor:hover{
+
+    color: rgb(69, 7, 131);
+    font-style: oblique;
+    text-transform:uppercase;
+}
+
